@@ -136,4 +136,5 @@ IDENTIFIER: (LETTER | '_') (LETTER | DIGIT | '_')*;
 fragment LETTER: [a-zA-Z];
 fragment DIGIT: [0-9];
 
+NEWLINE: '\n';
 WS: [\r\f]+ -> skip;
